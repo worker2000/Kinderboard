@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>Flex-Test</title>
+  <style>
+    body {
+      background: #eee;
+      font-family: Arial, sans-serif;
+      max-width: 1200px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    .board-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: space-between;
+    }
+
+    .column {
+      flex: 1 1 30%;
+      min-width: 250px;
+      background: #fff;
+      border: 2px solid #1976d2;
+      border-radius: 8px;
+      padding: 1rem;
+    }
+
+    .column h2 {
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Flexbox Test</h1>
+  <div class="board-grid">
+    <div class="column">
+      <h2>🕷️ Emily</h2>
+      <p>Inhalt</p>
+    </div>
+    <div class="column">
+      <h2>🦄 Kiara</h2>
+      <p>Inhalt</p>
+    </div>
+    <div class="column">
+      <h2>🦖 Ian</h2>
+      <p>Inhalt</p>
+    </div>
+  </div>
+</body>
+</html>

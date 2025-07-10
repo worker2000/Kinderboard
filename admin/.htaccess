@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Adminbereich"
+AuthUserFile /var/www/html/kinderboard/.htpasswd
+Require valid-user
