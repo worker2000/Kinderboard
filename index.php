@@ -81,6 +81,9 @@ $res = $mysqli->query("SELECT * FROM kinder ORDER BY name");
       </div>
     <?php endwhile; ?>
   </div>
+  <div style="position: absolute; top: 20px; right: 30px;">
+  <a href="statistik.php" class="log-button">📊 Zur Statistik</a>
+</div>
 
   <!-- Live Clock + Bunter Wochentag -->
   <div class="live-clock">

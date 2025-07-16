@@ -77,6 +77,10 @@ $rewards = $mysqli->query("
   }
   ?>
   </div>
-
+<script>
+  setTimeout(() => {
+    window.location.href = 'index.php';
+  }, 60000); // 60.000 Millisekunden = 60 Sekunden
+</script>
 </body>
 </html>

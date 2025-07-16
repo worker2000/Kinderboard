@@ -19,6 +19,8 @@ $kinderRes2 = $mysqli->query("SELECT name FROM kinder ORDER BY name");
 <a href="shop_admin.php" class="log-button">🎁 Shop Admin</a>
 <a href="shop_log.php" class="log-button">📜 Shop-Logfile</a>
 <a href="kinder_admin.php" class="log-button">🧒 Kinder verwalten</a>
+<a href="discord_admin.php" class="log-button">🤖 Discord Bot</a>
+<a href="statistik_admin.php" class="log-button">📊 Statistik</a>
 
 <h1>Admin Panel</h1>
 
